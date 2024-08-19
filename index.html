@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Ebay Clone</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <div class="logo">
+        <img src="eBaylogo.png " alt="Ebay Logo">
+        <div class="icons">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="profile">
+            <g fill="none" fill-rule="evenodd" stroke="#200E32" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="1.5" transform="translate(4 2.5)">
+              <circle cx="7.579" cy="4.778" r="4.778"></circle>
+              <path
+                d="M5.32907052e-15,16.2013731 C-0.00126760558,15.8654831 0.0738531734,15.5336997 0.219695816,15.2311214 C0.677361723,14.3157895 1.96797958,13.8306637 3.0389178,13.610984 C3.81127745,13.4461621 4.59430539,13.3360488 5.38216724,13.2814646 C6.84083861,13.1533327 8.30793524,13.1533327 9.76660662,13.2814646 C10.5544024,13.3366774 11.3373865,13.4467845 12.1098561,13.610984 C13.1807943,13.8306637 14.4714121,14.270023 14.929078,15.2311214 C15.2223724,15.8479159 15.2223724,16.5639836 14.929078,17.1807781 C14.4714121,18.1418765 13.1807943,18.5812358 12.1098561,18.7917621 C11.3383994,18.9634099 10.5550941,19.0766219 9.76660662,19.1304349 C8.57936754,19.2310812 7.38658584,19.2494317 6.19681255,19.1853548 C5.92221301,19.1853548 5.65676678,19.1853548 5.38216724,19.1304349 C4.59663136,19.077285 3.8163184,18.9640631 3.04807112,18.7917621 C1.96797958,18.5812358 0.686515041,18.1418765 0.219695816,17.1807781 C0.0745982583,16.8746908 -0.000447947969,16.5401098 5.32907052e-15,16.2013731 Z">
+              </path>
+            </g>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.402 32" id="cart">
+            <path
+              d="M6 30a2 2 1080 1 0 4 0 2 2 1080 1 0-4 0zm18 0a2 2 1080 1 0 4 0 2 2 1080 1 0-4 0zM-.058 5a1 1 0 0 0 1 1H3.02l1.242 5.312L6 20c0 .072.034.134.042.204l-1.018 4.58A.997.997 0 0 0 6 26h22.688a1 1 0 0 0 0-2H7.248l.458-2.06c.1.016.19.06.294.06h18.23c1.104 0 1.77-.218 2.302-1.5l3.248-9.964C32.344 8.75 31.106 8 30 8H6c-.156 0-.292.054-.438.088l-.776-3.316A1 1 0 0 0 3.812 4H.942a1 1 0 0 0-1 1zm6.098 5h23.81l-3.192 9.798c-.038.086-.07.148-.094.19-.066.006-.17.012-.334.012H8v-.198l-.038-.194L6.04 10z">
+            </path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" id="menu-bar">
+            <rect fill="none"></rect>
+            <path d="M18.2,12.7H5.8C5.3,12.7,5,12.4,5,12s0.3-0.7,0.7-0.7h12.5c0.4,0,0.7,0.3,0.7,0.7S18.7,12.7,18.2,12.7z M19,7.8
+		C19,7.3,18.7,7,18.3,7H5.8C5.3,7,5,7.4,5,7.8s0.3,0.7,0.7,0.7h12.5C18.7,8.5,19,8.2,19,7.8z M19,16.2c0-0.4-0.3-0.7-0.7-0.7H5.8
+		c-0.4,0-0.7,0.3-0.7,0.7C5,16.6,5.4,17,5.8,17h12.5C18.7,17,19,16.7,19,16.2z"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="search">
+    <input type="text" placeholder="Search for anything">
+    <button class="searchicon">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" style="fill:#FFFFFF;">
+        <path
+          d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z">
+        </path>
+      </svg>
+    </button>
+  </div>
+  <div class="options">
+    <span>Watching</span>
+    <span>Purchase</span>
+    <span>Selling</span>
+    <span>Bids & Offers</span>
+    <span>Messags</span>
+  </div>
+  <div class="read">
+    <pre>
+   <span>Have you been selling on eBay
+  already?</span>
+    <span>
+   To pay your fees or ask questions 
+   
+   Read more<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="arrow-right"><path d="M21.92,12.38a1,1,0,0,0,0-.76,1,1,0,0,0-.21-.33l-7-7a1,1,0,0,0-1.42,1.42L18.59,11H3a1,1,0,0,0,0,2H18.59l-5.3,5.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l7-7A1,1,0,0,0,21.92,12.38Z"></path></svg></span>
+  </pre>
+  </div>
+  <div class="trending">
+    <h3>
+      Trending on eBay
+    </h3>
+    <span><img src="bag1.jpg" /></span>
+    <span><img src="shoe.webp" /></span>
+    <span><img src="tyre.jpg" /></span>
+    <div class="name">
+      <span>Luxury </span>
+      <span>Sneakers</span>
+      <span>P&A</span>
+    </div>
+    <span><img src=" refurbished.jpg" /></span>
+    <span><img src="trading cards.jpg" /></span>
+    <span><img src="watch.jpg" /></span>
+    <div class="name">
+      <span>Refurbished</span>
+      <span>Trading Cards</span> <span>Watches</span>
+    </div>
+  </div>
+ <div class="more">
+    <div class="p1">
+      <img src="photo1.webp" />
+    </div>
+    <div class="p2">
+      <img src="photo2.webp" />
+    </div>
+  </div>
+  <div class="footer">
+    <div class="end">
+      <h3>Home</h3>
+      <h3>Sign in/Register</h3>
+      <h3>Sell an item</h3>
+      <h3>Help&Contact</h3>
+      <h3>Download the free eBay app</h3>
+      <div class="separation"></div>
+    </div>
+    <div class="end1">
+      <pre>
+ <span>Site <span>map</span></span>,<span>User<span>Agreement</span></span>,<span>Privacy</span>,
+       <span>Cookies</span> & <span>AdChoice</span>.
+  </pre>
+    </div>
+    <div class="end2">
+      <pre>   <span>&copy;1995-2024 eBay inc.</span>
+   <span>Mobile/</span><span>Classic Site</span>
+      </pre>
+    </div>
+  </div>
+  </div>
+  <div class="info">
+    <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
+      image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 301 511.26">
+      <path fill-rule="nonzero"
+        d="M102.05 362.83v-4.57c.35-30.36 3.33-54.41 9.17-72.28 5.73-17.86 13.97-32.4 24.73-43.4 10.77-11.11 23.72-21.19 38.84-30.36 9.73-6.18 18.55-13.05 26.34-20.72 7.78-7.57 13.96-16.39 18.55-26.35 4.58-9.85 6.87-20.84 6.87-32.98 0-14.43-3.44-26.92-10.31-37.57-6.76-10.54-15.92-18.67-27.15-24.5-11.34-5.73-23.93-8.59-37.79-8.59-12.48 0-24.39 2.51-35.84 7.78-11.34 5.16-20.85 13.28-28.3 24.28-7.44 10.99-11.79 25.09-12.94 42.27H0c1.15-29.22 8.59-53.95 22.22-74.22 13.75-20.27 31.85-35.63 54.29-46.04C99.08 5.16 124.05 0 151.3 0c30 0 56.12 5.49 78.57 16.72 22.45 11.11 39.97 26.69 52.46 46.61C294.69 83.26 301 106.4 301 132.98c0 18.2-2.86 34.58-8.59 49.13-5.73 14.54-13.75 27.6-24.28 38.93-10.55 11.46-23.03 21.54-37.68 30.24-13.86 8.71-25.09 17.64-33.56 26.92-8.59 9.27-14.78 20.27-18.67 32.87-3.9 12.71-6.08 28.4-6.41 47.19v4.57h-69.76zm36.88 148.43c-13.39-.1-24.85-4.8-34.47-14.31-9.62-9.5-14.32-21.07-14.32-34.59 0-13.28 4.7-24.73 14.32-34.24 9.62-9.51 21.08-14.32 34.47-14.32 13.17 0 24.62 4.81 34.25 14.32 9.73 9.51 14.54 20.96 14.54 34.24 0 8.93-2.28 17.18-6.75 24.52-4.47 7.44-10.32 13.4-17.64 17.75-7.33 4.35-15.47 6.53-24.4 6.63z" />
+    </svg>
+  </div>
+</body>
+</html>
