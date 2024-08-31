@@ -7,9 +7,7 @@ This project is a static eCommerce website built using HTML and CSS. The website
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Screenshots](#screenshots)
 - [How to Use](#how-to-use)
-- [License](#license)
 
 ## Project Overview
 
